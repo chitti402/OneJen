@@ -16,7 +16,7 @@ public class USha1 {
 		String c= A+B;
 		System.out.println("Total amount here it is"+c);
 		sc.close();
-		String  path = "E:\\today\\myfirstjava.txt";
+		String  path = "E:\\today\\myfirst.txt";
 		File fi= new File(path);
 		try {
 			fi.createNewFile();
